@@ -3,6 +3,7 @@
   flex-direction: row;
   width: 100vw;
   height: 100vh;
+  height: 100dvh; /* iOS Safari: 100vh overshoots the visible area when browser chrome is shown */
   overflow: hidden;
   background: #0d1b2a;
 }
