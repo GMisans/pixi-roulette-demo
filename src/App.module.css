@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #0d1b2a;
+}
+
+.canvasArea {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+}
+
+/* Portrait phones and narrow viewports: stack vertically */
+@media (max-width: 639px), (orientation: portrait) and (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+}

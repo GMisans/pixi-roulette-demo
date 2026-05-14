@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -Path \"c:\\\\Users\\\\gintars.local\\\\Documents\\\\test\" -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "PowerShell(head -100)"
+    ]
+  }
+}
